@@ -1,0 +1,8 @@
+create role codegen_db_role;
+grant connect to codegen_db_role;
+grant exp_full_database to codegen_db_role;
+grant imp_full_database to codegen_db_role;
+
+create directory SUPDPDIR as '/home/support/dpdumps';
+
+create directory DPDUMPS as '/home/oracle/dpdumps';
