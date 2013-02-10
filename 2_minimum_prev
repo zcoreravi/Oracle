@@ -1,0 +1,15 @@
+create role minimum_priv_role;
+grant create table to minimum_priv_role;
+grant create trigger to minimum_priv_role;
+grant create view to minimum_priv_role;
+grant create procedure to minimum_priv_role;
+grant create synonym to minimum_priv_role;
+grant create type to minimum_priv_role;
+grant create any context to minimum_priv_role;
+grant select any dictionary to minimum_priv_role;
+grant create sequence to minimum_priv_role;
+grant connect to minimum_priv_role;
+grant select any table to minimum_priv_role;
+grant  DEBUG CONNECT SESSION  to minimum_priv_role;
+grant DEBUG ANY PROCEDURE to minimum_priv_role; 
+grant create materialized view to minimum_priv_role; 
